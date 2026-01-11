@@ -1,0 +1,15 @@
+[alias]
+	a = add
+	ap = add patch
+	br = branch
+	bsc = branch --show-current
+	ca = commit -m
+	cam = commit --amend
+	cram = commit --amend --no-edit
+	co = checkout
+	cob = checkout -b
+	ri = rebase -i
+	s = status
+	wa = worktree add
+	wl = worktree list
+	logs = log --oneline
