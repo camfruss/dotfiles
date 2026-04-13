@@ -20,6 +20,8 @@ return {
 			vim.keymap.set('n', '<leader>ht', builtin.help_tags, { desc = 'Telescope help tags' })
 			vim.keymap.set('n', '<leader>sh', builtin.search_history, { desc = 'Telescope search history' })
 			vim.keymap.set('n', '<leader>of', builtin.oldfiles, { desc = 'Telescope old files' })
+			vim.keymap.set('n', '<leader>km', builtin.keymaps, { desc = 'Telescope keymaps' })
+
 		end,
 	},
 }
